@@ -1,0 +1,21 @@
+svg {
+  background: #F3F2FA;
+}
+
+.county {
+  stroke: #333333;
+  stroke-width: 0.6;
+}
+
+/*Add Tooltip Type here*/
+.tooltip{
+    position: absolute;
+    pointer-events: none;
+    background-color: steelblue;
+}
+.left-align{
+    text-align: left;
+}
+.right-align{
+    text-align: right;
+}
