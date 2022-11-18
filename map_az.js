@@ -22,7 +22,6 @@ var tooltip = d3.select("body")
     .attr("class", "tooltip")
     .style("opacity", 0);
 
-
 //Load multiple files
 d3.queue()
   .defer(d3.json, "topo_az.json") 
@@ -136,7 +135,7 @@ function ready(error, data, pop){
             "<td> : </td>" +
             '<td class="right-align">' +
             population[d.properties.GEO_ID][2] +
-            " Million BTUs</td></tr>" +
+            " </td></tr>" +
             "<tr><td>Density</td>" +
             "<td> : </td>" +
             '<td class="right-align">' + // define in css
